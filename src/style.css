@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@200;300;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+#root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+header{
+    padding:1.8rem 0;
+    margin-bottom:max(3vh , 1rem);
+}
+header h1{
+    font-size:2.9rem;
+    line-height:4rem;
+    margin-bottom:max(1.5vh , 1rem);
+    letter-spacing:0.7rem;
+    color:#EE6657;
+}
+header p{
+    font-size:0.9rem;
+    line-height:1.5rem;
+    letter-spacing:0.1rem;
+    word-spacing:0.1rem;
+    color:#333;
+}
+.inputBx{
+  display: flex;
+  margin:0.5rem 0 8rem;
+  padding: 0 4px;
+  width:400px;
+  margin-inline:auto;
+}
+.inputBx input{
+  width: 85%;
+  padding:0.5rem;
+  font-size: 17px;
+  border: 0.5px solid #009D90;
+  background-color:#fff;
+  border-radius: 3px;
+  outline: none;
+  color: #8a8a8a;
+}
+.inputBx input::placeholder{
+  color: #009D90;
+}
+.inputBx button{
+    width: 15%;
+    padding:0.5rem;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    background-color: #009D90;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+.todo-section{
+    padding:2rem;
+}
+.heading{
+  text-align:left;
+  font-size:1.5rem;
+  margin:2rem 0;
+}
+.todo-items{
+  display:grid;
+  grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  gap:2rem;
+}
+.todo-item{
+  background-color:#fff;
+  border-top:2px solid #EE6657;
+  padding:0.6rem;
+  text-align: start;
+}
+.todo-item .date{
+  
+}
+.edit_delete{
+
+}
