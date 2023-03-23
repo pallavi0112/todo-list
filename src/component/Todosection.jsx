@@ -7,9 +7,9 @@ const Todosection = () => {
 useEffect(()=>{
   const data = localStorage.getItem('Tasklist');
   if(data!==null)setTodoList(JSON.parse(data));
-  if(data.length>=0){
-    setShow(true)
-  }
+  // if(data.length>=0){
+  //   setShow(true)
+  // }
 },[])
    useEffect(()=>{
     localStorage.setItem("Tasklist" , JSON.stringify(todoList))
