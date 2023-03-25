@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 
 const InputBx = (props) => {
-
-
     const [todoItem, setTodoItem] = useState(
         {
             item : "",

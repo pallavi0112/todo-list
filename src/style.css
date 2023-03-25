@@ -29,7 +29,7 @@ header h1{
     color:#EE6657;
 }
 header p{
-    font-size:0.9rem;
+    font-size:1rem;
     line-height:1.5rem;
     letter-spacing:0.1rem;
     word-spacing:0.1rem;
@@ -46,7 +46,7 @@ header p{
   width: 85%;
   padding:0.5rem;
   font-size: 17px;
-  border: 0.5px solid #009D90;
+  border: 0.5px solid #009d90;
   background-color:#fff;
   border-radius: 3px;
   outline: none;
@@ -72,23 +72,56 @@ header p{
 }
 .heading{
   text-align:left;
-  font-size:1.5rem;
+  font-size:2rem;
   margin:2rem 0;
 }
 .todo-items{
+  width:90%;
+  margin-inline:auto;
   display:grid;
   grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
   gap:2rem;
 }
 .todo-item{
+  height:200px;
   background-color:#fff;
-  border-top:2px solid #EE6657;
-  padding:0.6rem;
+  padding:1rem;
   text-align: start;
+  position: relative;
+  border-top-width:3px;
+  border-top-style: solid;
 }
 .todo-item .date{
-  
+      padding:0.5rem 0.4rem;
+      font-size:0.8rem;
+      border-radius:1rem;
+      color: #373737;
+}
+.todo-item .task{
+  margin-top:1rem;
+  font-size:1.05rem;
+  padding:0.5rem;
+  color: #7e7e7e;
+}
+.UpdateInputBx{
+  display: block;
+  margin-top:1rem;
+  font-size:1.05rem;
+  padding:0.2rem 0.5rem;
+  text-align:start ;
+  color: #7e7e7e;
+  border:none;
+  background-color: transparent;
+  outline:0.5px solid rgba(126, 126, 126 , 0.14);
 }
 .edit_delete{
-
+  position:absolute;
+  right: 10%;
+  bottom:10%;
+  text-align: end;
+}
+.edit_delete svg{
+  margin: auto 0.3rem;
+  font-size:1.2rem;
+  cursor:pointer;
 }
